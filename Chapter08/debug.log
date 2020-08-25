@@ -1,0 +1,1009 @@
+2020-03-01 23:46:08,775 - WARNING - 306 : XGBoost is included in recommended algorithms list but not installed locally. If you would like to include XGBoost models in the recommended algorithms please install XGBoost locally. Adding XGBoost to the blacklist.
+2020-03-01 23:46:08,812 - INFO - 306 : Starting usage telemetry collection
+2020-03-01 23:46:11,511 - INFO - 306 : Package azureml-train-automl missing from dependencies file.
+2020-03-01 23:46:11,511 - INFO - 306 : Using pinned version: azureml-train-automl==1.0.83.*
+2020-03-01 23:46:11,512 - INFO - 306 : Package azureml-explain-model missing from dependencies file.
+2020-03-01 23:46:11,512 - INFO - 306 : Using pinned version: azureml-explain-model==1.0.83.*
+2020-03-01 23:46:11,512 - INFO - 306 : Package pandas missing from dependencies file.
+2020-03-01 23:46:11,512 - INFO - 306 : Using pinned version: pandas>=0.21.0,<=0.23.4
+2020-03-01 23:46:11,513 - INFO - 306 : Package numpy missing from dependencies file.
+2020-03-01 23:46:11,513 - INFO - 306 : Using installed version: numpy==1.16.2
+2020-03-01 23:46:11,513 - INFO - 306 : Package py-xgboost missing from dependencies file.
+2020-03-01 23:46:11,514 - INFO - 306 : Using pinned version: py-xgboost<=0.80
+2020-03-01 23:46:11,514 - INFO - 306 : Package inference-schema missing from dependencies file.
+2020-03-01 23:46:11,514 - INFO - 306 : Package fbprophet missing from dependencies file.
+2020-03-01 23:46:11,515 - INFO - 306 : Package setuptools-git missing from dependencies file.
+2020-03-01 23:46:11,584 - INFO - 306 : SDK dependencies versions:{"azureml-widgets": "1.0.83", "azureml-train": "1.0.83", "azureml-train-restclients-hyperdrive": "1.0.83", "azureml-train-core": "1.0.83", "azureml-train-automl": "1.0.83", "azureml-train-automl-runtime": "1.0.83.1", "azureml-train-automl-client": "1.0.83", "azureml-tensorboard": "1.0.83", "azureml-telemetry": "1.0.83", "azureml-sdk": "1.0.83", "azureml-samples": "0+unknown", "azureml-pipeline": "1.0.83", "azureml-pipeline-steps": "1.0.83", "azureml-pipeline-core": "1.0.83", "azureml-opendatasets": "1.0.83", "azureml-model-management-sdk": "1.0.1b6.post1", "azureml-mlflow": "1.0.83", "azureml-interpret": "1.0.83", "azureml-explain-model": "1.0.83", "azureml-defaults": "1.0.83", "azureml-dataprep": "1.1.35", "azureml-dataprep-native": "13.2.0", "azureml-datadrift": "1.0.83", "azureml-core": "1.0.83", "azureml-contrib-services": "1.0.83", "azureml-contrib-server": "1.0.83", "azureml-contrib-reinforcementlearning": "1.0.83", "azureml-contrib-pipeline-steps": "1.0.83", "azureml-contrib-notebook": "1.0.83", "azureml-contrib-interpret": "1.0.83", "azureml-contrib-datadrift": "1.0.83", "azureml-automl-runtime": "1.0.83", "azureml-automl-core": "1.0.83.1"}.
+2020-03-01 23:46:18,840 - INFO - 306 : memory usage 242642944
+2020-03-01 23:46:18,840 - INFO - 306 : child memory usage 399552512
+2020-03-01 23:46:18,842 - INFO - 306 : cpu time 3.381611
+2020-03-01 23:46:18,842 - INFO - 306 : child cpu time 0.058046
+2020-03-01 23:46:28,870 - INFO - 306 : memory usage 244617216
+2020-03-01 23:46:28,870 - INFO - 306 : child memory usage 401526784
+2020-03-01 23:46:28,871 - INFO - 306 : cpu time 3.457782
+2020-03-01 23:46:28,872 - INFO - 306 : child cpu time 0.058046
+2020-03-01 23:46:38,908 - INFO - 306 : memory usage 246362112
+2020-03-01 23:46:38,909 - INFO - 306 : child memory usage 403353600
+2020-03-01 23:46:38,910 - INFO - 306 : cpu time 3.492817
+2020-03-01 23:46:38,920 - INFO - 306 : child cpu time 0.058046
+2020-03-01 23:46:48,949 - INFO - 306 : memory usage 246374400
+2020-03-01 23:46:48,950 - INFO - 306 : child memory usage 403390464
+2020-03-01 23:46:48,951 - INFO - 306 : cpu time 3.540633
+2020-03-01 23:46:48,951 - INFO - 306 : child cpu time 0.058046
+2020-03-01 23:46:58,988 - INFO - 306 : memory usage 246382592
+2020-03-01 23:46:58,988 - INFO - 306 : child memory usage 406007808
+2020-03-01 23:46:58,989 - INFO - 306 : cpu time 3.633553
+2020-03-01 23:46:58,990 - INFO - 306 : child cpu time 0.058046
+2020-03-01 23:47:09,024 - INFO - 306 : memory usage 246652928
+2020-03-01 23:47:09,025 - INFO - 306 : child memory usage 411799552
+2020-03-01 23:47:09,026 - INFO - 306 : cpu time 3.68508
+2020-03-01 23:47:09,026 - INFO - 306 : child cpu time 0.058046
+2020-03-01 23:47:19,064 - INFO - 306 : memory usage 246652928
+2020-03-01 23:47:19,065 - INFO - 306 : child memory usage 411799552
+2020-03-01 23:47:19,066 - INFO - 306 : cpu time 3.720735
+2020-03-01 23:47:19,066 - INFO - 306 : child cpu time 0.058046
+2020-03-01 23:47:29,101 - INFO - 306 : memory usage 246652928
+2020-03-01 23:47:29,102 - INFO - 306 : child memory usage 411832320
+2020-03-01 23:47:29,103 - INFO - 306 : cpu time 3.760435
+2020-03-01 23:47:29,104 - INFO - 306 : child cpu time 0.058046
+2020-03-01 23:47:39,133 - INFO - 306 : memory usage 246652928
+2020-03-01 23:47:39,134 - INFO - 306 : child memory usage 411832320
+2020-03-01 23:47:39,135 - INFO - 306 : cpu time 3.802124
+2020-03-01 23:47:39,136 - INFO - 306 : child cpu time 0.058046
+2020-03-01 23:47:49,174 - INFO - 306 : memory usage 246652928
+2020-03-01 23:47:49,174 - INFO - 306 : child memory usage 411860992
+2020-03-01 23:47:49,175 - INFO - 306 : cpu time 3.839639
+2020-03-01 23:47:49,176 - INFO - 306 : child cpu time 0.058046
+2020-03-01 23:47:59,213 - INFO - 306 : memory usage 246652928
+2020-03-01 23:47:59,213 - INFO - 306 : child memory usage 411860992
+2020-03-01 23:47:59,215 - INFO - 306 : cpu time 3.8718589999999997
+2020-03-01 23:47:59,224 - INFO - 306 : child cpu time 0.058046
+2020-03-01 23:48:09,250 - INFO - 306 : memory usage 246652928
+2020-03-01 23:48:09,251 - INFO - 306 : child memory usage 411860992
+2020-03-01 23:48:09,252 - INFO - 306 : cpu time 3.919623
+2020-03-01 23:48:09,252 - INFO - 306 : child cpu time 0.058046
+2020-03-01 23:48:19,286 - INFO - 306 : memory usage 246652928
+2020-03-01 23:48:19,286 - INFO - 306 : child memory usage 411869184
+2020-03-01 23:48:19,287 - INFO - 306 : cpu time 3.962053
+2020-03-01 23:48:19,287 - INFO - 306 : child cpu time 0.058046
+2020-03-01 23:48:29,316 - INFO - 306 : memory usage 246652928
+2020-03-01 23:48:29,317 - INFO - 306 : child memory usage 411869184
+2020-03-01 23:48:29,318 - INFO - 306 : cpu time 3.997193
+2020-03-01 23:48:29,318 - INFO - 306 : child cpu time 0.058046
+2020-03-01 23:48:39,356 - INFO - 306 : memory usage 246652928
+2020-03-01 23:48:39,357 - INFO - 306 : child memory usage 411869184
+2020-03-01 23:48:39,358 - INFO - 306 : cpu time 4.043182
+2020-03-01 23:48:39,358 - INFO - 306 : child cpu time 0.058046
+2020-03-01 23:48:49,394 - INFO - 306 : memory usage 246652928
+2020-03-01 23:48:49,394 - INFO - 306 : child memory usage 411877376
+2020-03-01 23:48:49,396 - INFO - 306 : cpu time 4.085419
+2020-03-01 23:48:49,396 - INFO - 306 : child cpu time 0.058046
+2020-03-01 23:48:59,434 - INFO - 306 : memory usage 246652928
+2020-03-01 23:48:59,435 - INFO - 306 : child memory usage 411877376
+2020-03-01 23:48:59,436 - INFO - 306 : cpu time 4.128122
+2020-03-01 23:48:59,446 - INFO - 306 : child cpu time 0.058046
+2020-03-01 23:49:09,476 - INFO - 306 : memory usage 246657024
+2020-03-01 23:49:09,476 - INFO - 306 : child memory usage 425308160
+2020-03-01 23:49:09,477 - INFO - 306 : cpu time 4.315014
+2020-03-01 23:49:09,477 - INFO - 306 : child cpu time 0.058046
+2020-03-01 23:49:10,270 - WARNING - 306 : XGBoost is included in recommended algorithms list but not installed locally. If you would like to include XGBoost models in the recommended algorithms please install XGBoost locally. Adding XGBoost to the blacklist.
+2020-03-01 23:49:10,313 - INFO - 306 : Starting usage telemetry collection
+2020-03-01 23:49:10,636 - INFO - 306 : Package azureml-train-automl missing from dependencies file.
+2020-03-01 23:49:10,637 - INFO - 306 : Using pinned version: azureml-train-automl==1.0.83.*
+2020-03-01 23:49:10,637 - INFO - 306 : Package azureml-explain-model missing from dependencies file.
+2020-03-01 23:49:10,637 - INFO - 306 : Using pinned version: azureml-explain-model==1.0.83.*
+2020-03-01 23:49:10,637 - INFO - 306 : Package pandas missing from dependencies file.
+2020-03-01 23:49:10,637 - INFO - 306 : Using pinned version: pandas>=0.21.0,<=0.23.4
+2020-03-01 23:49:10,637 - INFO - 306 : Package numpy missing from dependencies file.
+2020-03-01 23:49:10,638 - INFO - 306 : Using installed version: numpy==1.16.2
+2020-03-01 23:49:10,638 - INFO - 306 : Package py-xgboost missing from dependencies file.
+2020-03-01 23:49:10,638 - INFO - 306 : Using pinned version: py-xgboost<=0.80
+2020-03-01 23:49:10,638 - INFO - 306 : Package inference-schema missing from dependencies file.
+2020-03-01 23:49:10,638 - INFO - 306 : Package fbprophet missing from dependencies file.
+2020-03-01 23:49:10,639 - INFO - 306 : Package setuptools-git missing from dependencies file.
+2020-03-01 23:49:10,672 - INFO - 306 : SDK dependencies versions:{"azureml-widgets": "1.0.83", "azureml-train": "1.0.83", "azureml-train-restclients-hyperdrive": "1.0.83", "azureml-train-core": "1.0.83", "azureml-train-automl": "1.0.83", "azureml-train-automl-runtime": "1.0.83.1", "azureml-train-automl-client": "1.0.83", "azureml-tensorboard": "1.0.83", "azureml-telemetry": "1.0.83", "azureml-sdk": "1.0.83", "azureml-samples": "0+unknown", "azureml-pipeline": "1.0.83", "azureml-pipeline-steps": "1.0.83", "azureml-pipeline-core": "1.0.83", "azureml-opendatasets": "1.0.83", "azureml-model-management-sdk": "1.0.1b6.post1", "azureml-mlflow": "1.0.83", "azureml-interpret": "1.0.83", "azureml-explain-model": "1.0.83", "azureml-defaults": "1.0.83", "azureml-dataprep": "1.1.35", "azureml-dataprep-native": "13.2.0", "azureml-datadrift": "1.0.83", "azureml-core": "1.0.83", "azureml-contrib-services": "1.0.83", "azureml-contrib-server": "1.0.83", "azureml-contrib-reinforcementlearning": "1.0.83", "azureml-contrib-pipeline-steps": "1.0.83", "azureml-contrib-notebook": "1.0.83", "azureml-contrib-interpret": "1.0.83", "azureml-contrib-datadrift": "1.0.83", "azureml-automl-runtime": "1.0.83", "azureml-automl-core": "1.0.83.1"}.
+2020-03-01 23:49:17,126 - INFO - 306 : Validation service found the data has no errors.
+2020-03-01 23:49:17,127 - INFO - 306 : Start creating parent run with DTO:  - name: titanic-classification
+ - subscription_id: 21dc412b-d9eb-42e7-8317-55bc8eb10cf5
+ - region: westeurope
+ - spark_context: None
+ - spark_service: None
+ - azure_service: None
+ - iterations: 1000
+ - primary_metric: accuracy
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 3
+ - y_min: None
+ - y_max: None
+ - num_classes: None
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: None
+ - mem_in_mb: None
+ - enforce_time_on_windows: False
+ - experiment_timeout_minutes: 15
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['XGBoostClassifier', 'Prophet']
+ - supported_models: ['XGBoostClassifier', 'MultinomialNaiveBayes', 'SGD', 'LogisticRegression', 'TensorFlowDNN', 'DecisionTree', 'LinearSVMClassifier', 'BernoulliNaiveBayes', 'GradientBoosting', 'KNN', 'AveragedPerceptronClassifier', 'TensorFlowLinearClassifier', 'SVM', 'LightGBM', 'LinearSVM', 'ExtremeRandomTrees', 'RandomForest']
+ - auto_blacklist: True
+ - blacklist_samples_reached: False
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - enable_onnx_compatible_models: False
+ - enable_split_onnx_featurizer_estimator_models: False
+ - vm_type: STANDARD_D2_V2
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - enable_dnn: False
+ - force_text_dnn: False
+ - enable_feature_sweeping: True
+ - enable_early_stopping: False
+ - early_stopping_n_iters: 10
+ - metrics: None
+ - enable_ensembling: True
+ - enable_stack_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: None
+ - subsample_seed: None
+ - enable_nimbusml: False
+ - enable_streaming: False
+ - cost_mode: 0
+ - metric_operation: maximize
+ - featurization: auto.
+2020-03-01 23:49:17,878 - INFO - 306 : [ParentRunID:AutoML_9d218c29-ac8f-4592-b9c8-679c500e7dec] Remote run using input X and y.
+2020-03-01 23:49:18,038 - INFO - 306 : Parent Run ID: AutoML_9d218c29-ac8f-4592-b9c8-679c500e7dec
+2020-03-01 23:49:18,038 - INFO - 306 : Snapshotted folder: None with snapshot_id: 
+2020-03-01 23:49:18,039 - INFO - 306 : Starting a snapshot run (snapshotId : )
+2020-03-01 23:49:19,496 - INFO - 306 : Stopping usage telemetry collection
+2020-03-01 23:49:19,531 - INFO - 306 : memory usage 249503744
+2020-03-01 23:49:19,532 - INFO - 306 : child memory usage 429776896
+2020-03-01 23:49:19,532 - INFO - 306 : cpu time 4.5931560000000005
+2020-03-01 23:49:19,533 - INFO - 306 : child cpu time 0.058046
+2020-03-01 23:49:29,560 - INFO - 306 : memory usage 259186688
+2020-03-01 23:49:29,561 - INFO - 306 : child memory usage 439492608
+2020-03-01 23:49:29,562 - INFO - 306 : cpu time 4.900261
+2020-03-01 23:49:29,562 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:49:39,602 - INFO - 306 : memory usage 259256320
+2020-03-01 23:49:39,602 - INFO - 306 : child memory usage 439955456
+2020-03-01 23:49:39,604 - INFO - 306 : cpu time 4.947193
+2020-03-01 23:49:39,604 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:49:49,642 - INFO - 306 : memory usage 261062656
+2020-03-01 23:49:49,642 - INFO - 306 : child memory usage 441815040
+2020-03-01 23:49:49,643 - INFO - 306 : cpu time 4.995977
+2020-03-01 23:49:49,644 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:49:59,673 - INFO - 306 : memory usage 261214208
+2020-03-01 23:49:59,674 - INFO - 306 : child memory usage 441987072
+2020-03-01 23:49:59,674 - INFO - 306 : cpu time 5.166574
+2020-03-01 23:49:59,675 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:50:09,704 - INFO - 306 : memory usage 261263360
+2020-03-01 23:50:09,704 - INFO - 306 : child memory usage 442036224
+2020-03-01 23:50:09,705 - INFO - 306 : cpu time 5.211205
+2020-03-01 23:50:09,715 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:50:19,743 - INFO - 306 : memory usage 261308416
+2020-03-01 23:50:19,743 - INFO - 306 : child memory usage 442089472
+2020-03-01 23:50:19,744 - INFO - 306 : cpu time 5.256087
+2020-03-01 23:50:19,744 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:50:29,787 - INFO - 306 : memory usage 263151616
+2020-03-01 23:50:29,788 - INFO - 306 : child memory usage 443932672
+2020-03-01 23:50:29,789 - INFO - 306 : cpu time 5.438749
+2020-03-01 23:50:29,789 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:50:39,821 - INFO - 306 : memory usage 264953856
+2020-03-01 23:50:39,821 - INFO - 306 : child memory usage 445734912
+2020-03-01 23:50:39,822 - INFO - 306 : cpu time 5.481139
+2020-03-01 23:50:39,822 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:50:49,859 - INFO - 306 : memory usage 267550720
+2020-03-01 23:50:49,860 - INFO - 306 : child memory usage 448339968
+2020-03-01 23:50:49,860 - INFO - 306 : cpu time 5.521094
+2020-03-01 23:50:49,860 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:50:59,899 - INFO - 306 : memory usage 271847424
+2020-03-01 23:50:59,900 - INFO - 306 : child memory usage 452644864
+2020-03-01 23:50:59,901 - INFO - 306 : cpu time 5.68339
+2020-03-01 23:50:59,901 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:51:09,940 - INFO - 306 : memory usage 273629184
+2020-03-01 23:51:09,940 - INFO - 306 : child memory usage 454426624
+2020-03-01 23:51:09,941 - INFO - 306 : cpu time 5.72327
+2020-03-01 23:51:09,954 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:51:19,983 - INFO - 306 : memory usage 274624512
+2020-03-01 23:51:19,984 - INFO - 306 : child memory usage 455421952
+2020-03-01 23:51:19,985 - INFO - 306 : cpu time 5.767921
+2020-03-01 23:51:19,985 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:51:30,026 - INFO - 306 : memory usage 278110208
+2020-03-01 23:51:30,027 - INFO - 306 : child memory usage 458907648
+2020-03-01 23:51:30,028 - INFO - 306 : cpu time 5.943681
+2020-03-01 23:51:30,028 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:51:40,065 - INFO - 306 : memory usage 280834048
+2020-03-01 23:51:40,065 - INFO - 306 : child memory usage 461631488
+2020-03-01 23:51:40,066 - INFO - 306 : cpu time 5.98261
+2020-03-01 23:51:40,066 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:51:50,101 - INFO - 306 : memory usage 282664960
+2020-03-01 23:51:50,102 - INFO - 306 : child memory usage 463466496
+2020-03-01 23:51:50,103 - INFO - 306 : cpu time 6.027341
+2020-03-01 23:51:50,103 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:52:00,142 - INFO - 306 : memory usage 285356032
+2020-03-01 23:52:00,142 - INFO - 306 : child memory usage 466157568
+2020-03-01 23:52:00,143 - INFO - 306 : cpu time 6.196834
+2020-03-01 23:52:00,143 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:52:10,171 - INFO - 306 : memory usage 288075776
+2020-03-01 23:52:10,172 - INFO - 306 : child memory usage 468877312
+2020-03-01 23:52:10,172 - INFO - 306 : cpu time 6.24529
+2020-03-01 23:52:10,173 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:52:20,207 - INFO - 306 : memory usage 289935360
+2020-03-01 23:52:20,208 - INFO - 306 : child memory usage 470745088
+2020-03-01 23:52:20,209 - INFO - 306 : cpu time 6.297595
+2020-03-01 23:52:20,218 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:52:30,244 - INFO - 306 : memory usage 290844672
+2020-03-01 23:52:30,245 - INFO - 306 : child memory usage 471654400
+2020-03-01 23:52:30,247 - INFO - 306 : cpu time 6.467678
+2020-03-01 23:52:30,247 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:52:40,283 - INFO - 306 : memory usage 290897920
+2020-03-01 23:52:40,283 - INFO - 306 : child memory usage 471707648
+2020-03-01 23:52:40,285 - INFO - 306 : cpu time 6.514537
+2020-03-01 23:52:40,285 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:52:50,322 - INFO - 306 : memory usage 291024896
+2020-03-01 23:52:50,323 - INFO - 306 : child memory usage 471842816
+2020-03-01 23:52:50,324 - INFO - 306 : cpu time 6.553315
+2020-03-01 23:52:50,324 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:53:00,350 - INFO - 306 : memory usage 291049472
+2020-03-01 23:53:00,351 - INFO - 306 : child memory usage 471867392
+2020-03-01 23:53:00,351 - INFO - 306 : cpu time 6.702002
+2020-03-01 23:53:00,360 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:53:10,389 - INFO - 306 : memory usage 291110912
+2020-03-01 23:53:10,390 - INFO - 306 : child memory usage 471928832
+2020-03-01 23:53:10,391 - INFO - 306 : cpu time 6.747734
+2020-03-01 23:53:10,391 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:53:20,420 - INFO - 306 : memory usage 291151872
+2020-03-01 23:53:20,421 - INFO - 306 : child memory usage 471977984
+2020-03-01 23:53:20,421 - INFO - 306 : cpu time 6.795202
+2020-03-01 23:53:20,422 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:53:30,456 - INFO - 306 : memory usage 291172352
+2020-03-01 23:53:30,457 - INFO - 306 : child memory usage 471998464
+2020-03-01 23:53:30,458 - INFO - 306 : cpu time 6.851376
+2020-03-01 23:53:30,466 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:53:40,495 - INFO - 306 : memory usage 292077568
+2020-03-01 23:53:40,496 - INFO - 306 : child memory usage 472903680
+2020-03-01 23:53:40,497 - INFO - 306 : cpu time 7.012118
+2020-03-01 23:53:40,497 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:53:50,536 - INFO - 306 : memory usage 293027840
+2020-03-01 23:53:50,536 - INFO - 306 : child memory usage 473862144
+2020-03-01 23:53:50,537 - INFO - 306 : cpu time 7.052599
+2020-03-01 23:53:50,537 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:54:00,577 - INFO - 306 : memory usage 294846464
+2020-03-01 23:54:00,578 - INFO - 306 : child memory usage 475680768
+2020-03-01 23:54:00,579 - INFO - 306 : cpu time 7.089104
+2020-03-01 23:54:00,588 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:54:10,622 - INFO - 306 : memory usage 296488960
+2020-03-01 23:54:10,622 - INFO - 306 : child memory usage 477323264
+2020-03-01 23:54:10,623 - INFO - 306 : cpu time 7.252129
+2020-03-01 23:54:10,623 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:54:20,662 - INFO - 306 : memory usage 299380736
+2020-03-01 23:54:20,662 - INFO - 306 : child memory usage 480219136
+2020-03-01 23:54:20,663 - INFO - 306 : cpu time 7.302306
+2020-03-01 23:54:20,670 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:54:30,703 - INFO - 306 : memory usage 300318720
+2020-03-01 23:54:30,704 - INFO - 306 : child memory usage 481157120
+2020-03-01 23:54:30,704 - INFO - 306 : cpu time 7.350788
+2020-03-01 23:54:30,713 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:54:40,743 - INFO - 306 : memory usage 302100480
+2020-03-01 23:54:40,744 - INFO - 306 : child memory usage 482938880
+2020-03-01 23:54:40,745 - INFO - 306 : cpu time 7.530621
+2020-03-01 23:54:40,745 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:54:50,785 - INFO - 306 : memory usage 303878144
+2020-03-01 23:54:50,785 - INFO - 306 : child memory usage 485036032
+2020-03-01 23:54:50,786 - INFO - 306 : cpu time 7.574935
+2020-03-01 23:54:50,787 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:55:00,829 - INFO - 306 : memory usage 303927296
+2020-03-01 23:55:00,829 - INFO - 306 : child memory usage 485085184
+2020-03-01 23:55:00,830 - INFO - 306 : cpu time 7.624992
+2020-03-01 23:55:00,830 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:55:10,870 - INFO - 306 : memory usage 305983488
+2020-03-01 23:55:10,871 - INFO - 306 : child memory usage 487141376
+2020-03-01 23:55:10,872 - INFO - 306 : cpu time 7.784794
+2020-03-01 23:55:10,872 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:55:20,902 - INFO - 306 : memory usage 307097600
+2020-03-01 23:55:20,902 - INFO - 306 : child memory usage 488263680
+2020-03-01 23:55:20,903 - INFO - 306 : cpu time 7.827154
+2020-03-01 23:55:20,903 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:55:30,940 - INFO - 306 : memory usage 308736000
+2020-03-01 23:55:30,940 - INFO - 306 : child memory usage 489902080
+2020-03-01 23:55:30,941 - INFO - 306 : cpu time 7.870132
+2020-03-01 23:55:30,949 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:55:40,976 - INFO - 306 : memory usage 310517760
+2020-03-01 23:55:40,977 - INFO - 306 : child memory usage 491683840
+2020-03-01 23:55:40,977 - INFO - 306 : cpu time 7.918443
+2020-03-01 23:55:40,986 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:55:51,013 - INFO - 306 : memory usage 311468032
+2020-03-01 23:55:51,014 - INFO - 306 : child memory usage 492642304
+2020-03-01 23:55:51,015 - INFO - 306 : cpu time 8.073672
+2020-03-01 23:55:51,015 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:56:01,051 - INFO - 306 : memory usage 313106432
+2020-03-01 23:56:01,052 - INFO - 306 : child memory usage 494280704
+2020-03-01 23:56:01,052 - INFO - 306 : cpu time 8.115956
+2020-03-01 23:56:01,053 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:56:11,084 - INFO - 306 : memory usage 314744832
+2020-03-01 23:56:11,084 - INFO - 306 : child memory usage 495919104
+2020-03-01 23:56:11,085 - INFO - 306 : cpu time 8.158691
+2020-03-01 23:56:11,085 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:56:21,122 - INFO - 306 : memory usage 316559360
+2020-03-01 23:56:21,123 - INFO - 306 : child memory usage 497741824
+2020-03-01 23:56:21,124 - INFO - 306 : cpu time 8.32049
+2020-03-01 23:56:21,124 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:56:31,162 - INFO - 306 : memory usage 318373888
+2020-03-01 23:56:31,162 - INFO - 306 : child memory usage 499556352
+2020-03-01 23:56:31,163 - INFO - 306 : cpu time 8.368211
+2020-03-01 23:56:31,163 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:56:41,189 - INFO - 306 : memory usage 318373888
+2020-03-01 23:56:41,190 - INFO - 306 : child memory usage 499556352
+2020-03-01 23:56:41,190 - INFO - 306 : cpu time 8.4111
+2020-03-01 23:56:41,198 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:56:51,226 - INFO - 306 : memory usage 318373888
+2020-03-01 23:56:51,227 - INFO - 306 : child memory usage 499572736
+2020-03-01 23:56:51,228 - INFO - 306 : cpu time 8.57364
+2020-03-01 23:56:51,235 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:57:01,261 - INFO - 306 : memory usage 318390272
+2020-03-01 23:57:01,262 - INFO - 306 : child memory usage 499589120
+2020-03-01 23:57:01,262 - INFO - 306 : cpu time 8.614854
+2020-03-01 23:57:01,263 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:57:11,301 - INFO - 306 : memory usage 318390272
+2020-03-01 23:57:11,301 - INFO - 306 : child memory usage 499589120
+2020-03-01 23:57:11,302 - INFO - 306 : cpu time 8.652481
+2020-03-01 23:57:11,310 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:57:21,337 - INFO - 306 : memory usage 318390272
+2020-03-01 23:57:21,338 - INFO - 306 : child memory usage 499597312
+2020-03-01 23:57:21,338 - INFO - 306 : cpu time 8.701266
+2020-03-01 23:57:21,338 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:57:31,375 - INFO - 306 : memory usage 318423040
+2020-03-01 23:57:31,376 - INFO - 306 : child memory usage 499630080
+2020-03-01 23:57:31,376 - INFO - 306 : cpu time 8.868069
+2020-03-01 23:57:31,385 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:57:41,414 - INFO - 306 : memory usage 318423040
+2020-03-01 23:57:41,414 - INFO - 306 : child memory usage 499630080
+2020-03-01 23:57:41,415 - INFO - 306 : cpu time 8.908559
+2020-03-01 23:57:41,415 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:57:51,454 - INFO - 306 : memory usage 318423040
+2020-03-01 23:57:51,454 - INFO - 306 : child memory usage 499638272
+2020-03-01 23:57:51,455 - INFO - 306 : cpu time 8.946964
+2020-03-01 23:57:51,455 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:58:01,482 - INFO - 306 : memory usage 318423040
+2020-03-01 23:58:01,483 - INFO - 306 : child memory usage 499638272
+2020-03-01 23:58:01,484 - INFO - 306 : cpu time 9.114752
+2020-03-01 23:58:01,494 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:58:11,521 - INFO - 306 : memory usage 318423040
+2020-03-01 23:58:11,521 - INFO - 306 : child memory usage 499638272
+2020-03-01 23:58:11,522 - INFO - 306 : cpu time 9.170534
+2020-03-01 23:58:11,530 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:58:21,556 - INFO - 306 : memory usage 318423040
+2020-03-01 23:58:21,557 - INFO - 306 : child memory usage 499646464
+2020-03-01 23:58:21,558 - INFO - 306 : cpu time 9.21763
+2020-03-01 23:58:21,558 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:58:31,594 - INFO - 306 : memory usage 318423040
+2020-03-01 23:58:31,595 - INFO - 306 : child memory usage 499646464
+2020-03-01 23:58:31,596 - INFO - 306 : cpu time 9.254354
+2020-03-01 23:58:31,596 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:58:41,625 - INFO - 306 : memory usage 318423040
+2020-03-01 23:58:41,626 - INFO - 306 : child memory usage 499646464
+2020-03-01 23:58:41,626 - INFO - 306 : cpu time 9.423599
+2020-03-01 23:58:41,637 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:58:51,665 - INFO - 306 : memory usage 318423040
+2020-03-01 23:58:51,666 - INFO - 306 : child memory usage 499654656
+2020-03-01 23:58:51,667 - INFO - 306 : cpu time 9.473787
+2020-03-01 23:58:51,667 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:59:01,705 - INFO - 306 : memory usage 318423040
+2020-03-01 23:59:01,706 - INFO - 306 : child memory usage 499654656
+2020-03-01 23:59:01,706 - INFO - 306 : cpu time 9.51694
+2020-03-01 23:59:01,706 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:59:11,741 - INFO - 306 : memory usage 318423040
+2020-03-01 23:59:11,741 - INFO - 306 : child memory usage 499654656
+2020-03-01 23:59:11,742 - INFO - 306 : cpu time 9.677355
+2020-03-01 23:59:11,742 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:59:21,778 - INFO - 306 : memory usage 318423040
+2020-03-01 23:59:21,779 - INFO - 306 : child memory usage 499662848
+2020-03-01 23:59:21,780 - INFO - 306 : cpu time 9.727057
+2020-03-01 23:59:21,780 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:59:31,816 - INFO - 306 : memory usage 318423040
+2020-03-01 23:59:31,817 - INFO - 306 : child memory usage 499662848
+2020-03-01 23:59:31,818 - INFO - 306 : cpu time 9.75756
+2020-03-01 23:59:31,818 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:59:41,858 - INFO - 306 : memory usage 318423040
+2020-03-01 23:59:41,859 - INFO - 306 : child memory usage 499662848
+2020-03-01 23:59:41,859 - INFO - 306 : cpu time 9.809857
+2020-03-01 23:59:41,860 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-01 23:59:51,891 - INFO - 306 : memory usage 318423040
+2020-03-01 23:59:51,892 - INFO - 306 : child memory usage 499671040
+2020-03-01 23:59:51,893 - INFO - 306 : cpu time 9.957025
+2020-03-01 23:59:51,893 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:00:01,929 - INFO - 306 : memory usage 318423040
+2020-03-02 00:00:01,930 - INFO - 306 : child memory usage 499953664
+2020-03-02 00:00:01,930 - INFO - 306 : cpu time 10.003968
+2020-03-02 00:00:01,931 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:00:11,957 - INFO - 306 : memory usage 318423040
+2020-03-02 00:00:11,958 - INFO - 306 : child memory usage 499953664
+2020-03-02 00:00:11,958 - INFO - 306 : cpu time 10.042164
+2020-03-02 00:00:11,968 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:00:21,996 - INFO - 306 : memory usage 318423040
+2020-03-02 00:00:21,997 - INFO - 306 : child memory usage 500137984
+2020-03-02 00:00:21,998 - INFO - 306 : cpu time 10.199701
+2020-03-02 00:00:21,998 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:00:32,037 - INFO - 306 : memory usage 318423040
+2020-03-02 00:00:32,037 - INFO - 306 : child memory usage 500137984
+2020-03-02 00:00:32,038 - INFO - 306 : cpu time 10.246284
+2020-03-02 00:00:32,038 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:00:42,076 - INFO - 306 : memory usage 318423040
+2020-03-02 00:00:42,077 - INFO - 306 : child memory usage 500137984
+2020-03-02 00:00:42,077 - INFO - 306 : cpu time 10.291747
+2020-03-02 00:00:42,078 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:00:52,115 - INFO - 306 : memory usage 318423040
+2020-03-02 00:00:52,115 - INFO - 306 : child memory usage 500146176
+2020-03-02 00:00:52,116 - INFO - 306 : cpu time 10.332442
+2020-03-02 00:00:52,116 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:01:02,157 - INFO - 306 : memory usage 318468096
+2020-03-02 00:01:02,157 - INFO - 306 : child memory usage 500191232
+2020-03-02 00:01:02,158 - INFO - 306 : cpu time 10.498667
+2020-03-02 00:01:02,158 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:01:12,197 - INFO - 306 : memory usage 318468096
+2020-03-02 00:01:12,197 - INFO - 306 : child memory usage 500191232
+2020-03-02 00:01:12,198 - INFO - 306 : cpu time 10.556167
+2020-03-02 00:01:12,198 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:01:22,235 - INFO - 306 : memory usage 318468096
+2020-03-02 00:01:22,236 - INFO - 306 : child memory usage 500199424
+2020-03-02 00:01:22,237 - INFO - 306 : cpu time 10.606083
+2020-03-02 00:01:22,237 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:01:32,275 - INFO - 306 : memory usage 318468096
+2020-03-02 00:01:32,276 - INFO - 306 : child memory usage 500199424
+2020-03-02 00:01:32,276 - INFO - 306 : cpu time 10.762832
+2020-03-02 00:01:32,276 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:01:42,303 - INFO - 306 : memory usage 318468096
+2020-03-02 00:01:42,304 - INFO - 306 : child memory usage 500199424
+2020-03-02 00:01:42,305 - INFO - 306 : cpu time 10.799624
+2020-03-02 00:01:42,305 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:01:52,342 - INFO - 306 : memory usage 318468096
+2020-03-02 00:01:52,342 - INFO - 306 : child memory usage 500199424
+2020-03-02 00:01:52,343 - INFO - 306 : cpu time 10.841906999999999
+2020-03-02 00:01:52,343 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:02:02,382 - INFO - 306 : memory usage 318476288
+2020-03-02 00:02:02,382 - INFO - 306 : child memory usage 500215808
+2020-03-02 00:02:02,383 - INFO - 306 : cpu time 10.889277
+2020-03-02 00:02:02,383 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:02:12,418 - INFO - 306 : memory usage 318476288
+2020-03-02 00:02:12,418 - INFO - 306 : child memory usage 500215808
+2020-03-02 00:02:12,419 - INFO - 306 : cpu time 11.060042
+2020-03-02 00:02:12,426 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:02:22,453 - INFO - 306 : memory usage 318476288
+2020-03-02 00:02:22,454 - INFO - 306 : child memory usage 500224000
+2020-03-02 00:02:22,454 - INFO - 306 : cpu time 11.111104
+2020-03-02 00:02:22,455 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:02:32,491 - INFO - 306 : memory usage 318476288
+2020-03-02 00:02:32,491 - INFO - 306 : child memory usage 500224000
+2020-03-02 00:02:32,492 - INFO - 306 : cpu time 11.148343
+2020-03-02 00:02:32,502 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:02:42,530 - INFO - 306 : memory usage 318476288
+2020-03-02 00:02:42,530 - INFO - 306 : child memory usage 500224000
+2020-03-02 00:02:42,531 - INFO - 306 : cpu time 11.187647
+2020-03-02 00:02:42,538 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:02:52,565 - INFO - 306 : memory usage 318484480
+2020-03-02 00:02:52,566 - INFO - 306 : child memory usage 500240384
+2020-03-02 00:02:52,567 - INFO - 306 : cpu time 11.338154
+2020-03-02 00:02:52,567 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:03:02,606 - INFO - 306 : memory usage 318488576
+2020-03-02 00:03:02,606 - INFO - 306 : child memory usage 500244480
+2020-03-02 00:03:02,607 - INFO - 306 : cpu time 11.380261
+2020-03-02 00:03:02,607 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:03:12,643 - INFO - 306 : memory usage 318488576
+2020-03-02 00:03:12,644 - INFO - 306 : child memory usage 500244480
+2020-03-02 00:03:12,644 - INFO - 306 : cpu time 11.426455
+2020-03-02 00:03:12,645 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:03:22,682 - INFO - 306 : memory usage 318488576
+2020-03-02 00:03:22,683 - INFO - 306 : child memory usage 500252672
+2020-03-02 00:03:22,683 - INFO - 306 : cpu time 11.606758
+2020-03-02 00:03:22,683 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:03:32,717 - INFO - 306 : memory usage 318488576
+2020-03-02 00:03:32,718 - INFO - 306 : child memory usage 500252672
+2020-03-02 00:03:32,719 - INFO - 306 : cpu time 11.651575
+2020-03-02 00:03:32,719 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:03:42,755 - INFO - 306 : memory usage 318496768
+2020-03-02 00:03:42,755 - INFO - 306 : child memory usage 500260864
+2020-03-02 00:03:42,756 - INFO - 306 : cpu time 11.697066
+2020-03-02 00:03:42,764 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:03:52,790 - INFO - 306 : memory usage 318496768
+2020-03-02 00:03:52,791 - INFO - 306 : child memory usage 500260864
+2020-03-02 00:03:52,792 - INFO - 306 : cpu time 11.728765
+2020-03-02 00:03:52,792 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:04:02,830 - INFO - 306 : memory usage 318496768
+2020-03-02 00:04:02,831 - INFO - 306 : child memory usage 500260864
+2020-03-02 00:04:02,832 - INFO - 306 : cpu time 11.896584
+2020-03-02 00:04:02,832 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:04:12,860 - INFO - 306 : memory usage 318496768
+2020-03-02 00:04:12,860 - INFO - 306 : child memory usage 500260864
+2020-03-02 00:04:12,861 - INFO - 306 : cpu time 11.94138
+2020-03-02 00:04:12,861 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:04:22,897 - INFO - 306 : memory usage 318496768
+2020-03-02 00:04:22,898 - INFO - 306 : child memory usage 500269056
+2020-03-02 00:04:22,898 - INFO - 306 : cpu time 11.98835
+2020-03-02 00:04:22,899 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:04:32,933 - INFO - 306 : memory usage 318496768
+2020-03-02 00:04:32,933 - INFO - 306 : child memory usage 500269056
+2020-03-02 00:04:32,934 - INFO - 306 : cpu time 12.027481
+2020-03-02 00:04:32,934 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:04:42,970 - INFO - 306 : memory usage 318496768
+2020-03-02 00:04:42,971 - INFO - 306 : child memory usage 500269056
+2020-03-02 00:04:42,971 - INFO - 306 : cpu time 12.195518
+2020-03-02 00:04:42,972 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:04:53,007 - INFO - 306 : memory usage 318496768
+2020-03-02 00:04:53,007 - INFO - 306 : child memory usage 500277248
+2020-03-02 00:04:53,008 - INFO - 306 : cpu time 12.244684
+2020-03-02 00:04:53,008 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:05:03,044 - INFO - 306 : memory usage 318496768
+2020-03-02 00:05:03,044 - INFO - 306 : child memory usage 500277248
+2020-03-02 00:05:03,045 - INFO - 306 : cpu time 12.292839
+2020-03-02 00:05:03,045 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:05:13,053 - WARNING - 306 : XGBoost is included in recommended algorithms list but not installed locally. If you would like to include XGBoost models in the recommended algorithms please install XGBoost locally. Adding XGBoost to the blacklist.
+2020-03-02 00:05:13,083 - INFO - 306 : memory usage 318652416
+2020-03-02 00:05:13,083 - INFO - 306 : child memory usage 520171520
+2020-03-02 00:05:13,084 - INFO - 306 : cpu time 12.546286
+2020-03-02 00:05:13,084 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:05:13,126 - INFO - 306 : Starting usage telemetry collection
+2020-03-02 00:05:13,485 - INFO - 306 : Package azureml-train-automl missing from dependencies file.
+2020-03-02 00:05:13,485 - INFO - 306 : Using pinned version: azureml-train-automl==1.0.83.*
+2020-03-02 00:05:13,485 - INFO - 306 : Package azureml-explain-model missing from dependencies file.
+2020-03-02 00:05:13,486 - INFO - 306 : Using pinned version: azureml-explain-model==1.0.83.*
+2020-03-02 00:05:13,486 - INFO - 306 : Package pandas missing from dependencies file.
+2020-03-02 00:05:13,486 - INFO - 306 : Using pinned version: pandas>=0.21.0,<=0.23.4
+2020-03-02 00:05:13,486 - INFO - 306 : Package numpy missing from dependencies file.
+2020-03-02 00:05:13,486 - INFO - 306 : Using installed version: numpy==1.16.2
+2020-03-02 00:05:13,486 - INFO - 306 : Package py-xgboost missing from dependencies file.
+2020-03-02 00:05:13,487 - INFO - 306 : Using pinned version: py-xgboost<=0.80
+2020-03-02 00:05:13,487 - INFO - 306 : Package inference-schema missing from dependencies file.
+2020-03-02 00:05:13,487 - INFO - 306 : Package fbprophet missing from dependencies file.
+2020-03-02 00:05:13,487 - INFO - 306 : Package setuptools-git missing from dependencies file.
+2020-03-02 00:05:13,567 - INFO - 306 : SDK dependencies versions:{"azureml-widgets": "1.0.83", "azureml-train": "1.0.83", "azureml-train-restclients-hyperdrive": "1.0.83", "azureml-train-core": "1.0.83", "azureml-train-automl": "1.0.83", "azureml-train-automl-runtime": "1.0.83.1", "azureml-train-automl-client": "1.0.83", "azureml-tensorboard": "1.0.83", "azureml-telemetry": "1.0.83", "azureml-sdk": "1.0.83", "azureml-samples": "0+unknown", "azureml-pipeline": "1.0.83", "azureml-pipeline-steps": "1.0.83", "azureml-pipeline-core": "1.0.83", "azureml-opendatasets": "1.0.83", "azureml-model-management-sdk": "1.0.1b6.post1", "azureml-mlflow": "1.0.83", "azureml-interpret": "1.0.83", "azureml-explain-model": "1.0.83", "azureml-defaults": "1.0.83", "azureml-dataprep": "1.1.35", "azureml-dataprep-native": "13.2.0", "azureml-datadrift": "1.0.83", "azureml-core": "1.0.83", "azureml-contrib-services": "1.0.83", "azureml-contrib-server": "1.0.83", "azureml-contrib-reinforcementlearning": "1.0.83", "azureml-contrib-pipeline-steps": "1.0.83", "azureml-contrib-notebook": "1.0.83", "azureml-contrib-interpret": "1.0.83", "azureml-contrib-datadrift": "1.0.83", "azureml-automl-runtime": "1.0.83", "azureml-automl-core": "1.0.83.1"}.
+2020-03-02 00:05:19,477 - INFO - 306 : Validation service found the data has no errors.
+2020-03-02 00:05:19,478 - INFO - 306 : Start creating parent run with DTO:  - name: titanic-classification
+ - subscription_id: 21dc412b-d9eb-42e7-8317-55bc8eb10cf5
+ - region: westeurope
+ - spark_context: None
+ - spark_service: None
+ - azure_service: None
+ - iterations: 1000
+ - primary_metric: accuracy
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 3
+ - y_min: None
+ - y_max: None
+ - num_classes: None
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 4
+ - iteration_timeout_minutes: None
+ - mem_in_mb: None
+ - enforce_time_on_windows: False
+ - experiment_timeout_minutes: 15
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['XGBoostClassifier', 'Prophet']
+ - supported_models: ['XGBoostClassifier', 'MultinomialNaiveBayes', 'SGD', 'LogisticRegression', 'TensorFlowDNN', 'DecisionTree', 'LinearSVMClassifier', 'BernoulliNaiveBayes', 'GradientBoosting', 'KNN', 'AveragedPerceptronClassifier', 'TensorFlowLinearClassifier', 'SVM', 'LightGBM', 'LinearSVM', 'ExtremeRandomTrees', 'RandomForest']
+ - auto_blacklist: True
+ - blacklist_samples_reached: False
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - enable_onnx_compatible_models: False
+ - enable_split_onnx_featurizer_estimator_models: False
+ - vm_type: STANDARD_D2_V2
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - enable_dnn: False
+ - force_text_dnn: False
+ - enable_feature_sweeping: True
+ - enable_early_stopping: False
+ - early_stopping_n_iters: 10
+ - metrics: None
+ - enable_ensembling: True
+ - enable_stack_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: None
+ - subsample_seed: None
+ - enable_nimbusml: False
+ - enable_streaming: False
+ - cost_mode: 0
+ - metric_operation: maximize
+ - featurization: auto.
+2020-03-02 00:05:19,977 - INFO - 306 : [ParentRunID:AutoML_6a8a5a71-d75b-4333-bb86-1e7c821b3691] Remote run using input X and y.
+2020-03-02 00:05:20,134 - INFO - 306 : Parent Run ID: AutoML_6a8a5a71-d75b-4333-bb86-1e7c821b3691
+2020-03-02 00:05:20,134 - INFO - 306 : Snapshotted folder: None with snapshot_id: 
+2020-03-02 00:05:20,135 - INFO - 306 : Starting a snapshot run (snapshotId : )
+2020-03-02 00:05:21,179 - INFO - 306 : Stopping usage telemetry collection
+2020-03-02 00:05:23,112 - INFO - 306 : memory usage 319180800
+2020-03-02 00:05:23,113 - INFO - 306 : child memory usage 522850304
+2020-03-02 00:05:23,114 - INFO - 306 : cpu time 13.192963
+2020-03-02 00:05:23,124 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:05:33,152 - INFO - 306 : memory usage 320991232
+2020-03-02 00:05:33,153 - INFO - 306 : child memory usage 525221888
+2020-03-02 00:05:33,154 - INFO - 306 : cpu time 13.243598
+2020-03-02 00:05:33,154 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:05:43,193 - INFO - 306 : memory usage 321007616
+2020-03-02 00:05:43,194 - INFO - 306 : child memory usage 525463552
+2020-03-02 00:05:43,195 - INFO - 306 : cpu time 13.300311
+2020-03-02 00:05:43,195 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:05:53,229 - INFO - 306 : memory usage 321024000
+2020-03-02 00:05:53,230 - INFO - 306 : child memory usage 525557760
+2020-03-02 00:05:53,231 - INFO - 306 : cpu time 13.362231
+2020-03-02 00:05:53,231 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:06:03,259 - INFO - 306 : memory usage 321175552
+2020-03-02 00:06:03,260 - INFO - 306 : child memory usage 525709312
+2020-03-02 00:06:03,261 - INFO - 306 : cpu time 13.516011
+2020-03-02 00:06:03,269 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:06:13,296 - INFO - 306 : memory usage 321183744
+2020-03-02 00:06:13,297 - INFO - 306 : child memory usage 525717504
+2020-03-02 00:06:13,297 - INFO - 306 : cpu time 13.572669
+2020-03-02 00:06:13,297 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:06:23,333 - INFO - 306 : memory usage 321183744
+2020-03-02 00:06:23,334 - INFO - 306 : child memory usage 525725696
+2020-03-02 00:06:23,335 - INFO - 306 : cpu time 13.63343
+2020-03-02 00:06:23,335 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:06:33,374 - INFO - 306 : memory usage 322117632
+2020-03-02 00:06:33,374 - INFO - 306 : child memory usage 526659584
+2020-03-02 00:06:33,375 - INFO - 306 : cpu time 13.803535
+2020-03-02 00:06:33,385 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:06:43,414 - INFO - 306 : memory usage 322134016
+2020-03-02 00:06:43,415 - INFO - 306 : child memory usage 526675968
+2020-03-02 00:06:43,416 - INFO - 306 : cpu time 13.844619999999999
+2020-03-02 00:06:43,417 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:06:53,453 - INFO - 306 : memory usage 322408448
+2020-03-02 00:06:53,453 - INFO - 306 : child memory usage 526958592
+2020-03-02 00:06:53,454 - INFO - 306 : cpu time 13.895584
+2020-03-02 00:06:53,463 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:07:03,491 - INFO - 306 : memory usage 322416640
+2020-03-02 00:07:03,492 - INFO - 306 : child memory usage 526966784
+2020-03-02 00:07:03,493 - INFO - 306 : cpu time 14.067631
+2020-03-02 00:07:03,501 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:07:13,532 - INFO - 306 : memory usage 322416640
+2020-03-02 00:07:13,533 - INFO - 306 : child memory usage 526966784
+2020-03-02 00:07:13,534 - INFO - 306 : cpu time 14.111541
+2020-03-02 00:07:13,534 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:07:23,570 - INFO - 306 : memory usage 322433024
+2020-03-02 00:07:23,571 - INFO - 306 : child memory usage 526983168
+2020-03-02 00:07:23,571 - INFO - 306 : cpu time 14.157082
+2020-03-02 00:07:23,572 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:07:33,613 - INFO - 306 : memory usage 323108864
+2020-03-02 00:07:33,614 - INFO - 306 : child memory usage 527659008
+2020-03-02 00:07:33,615 - INFO - 306 : cpu time 14.319896
+2020-03-02 00:07:33,615 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:07:43,656 - INFO - 306 : memory usage 323108864
+2020-03-02 00:07:43,656 - INFO - 306 : child memory usage 527659008
+2020-03-02 00:07:43,657 - INFO - 306 : cpu time 14.371725
+2020-03-02 00:07:43,657 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:07:53,687 - INFO - 306 : memory usage 323108864
+2020-03-02 00:07:53,687 - INFO - 306 : child memory usage 527667200
+2020-03-02 00:07:53,688 - INFO - 306 : cpu time 14.416755
+2020-03-02 00:07:53,688 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:08:03,728 - INFO - 306 : memory usage 323125248
+2020-03-02 00:08:03,729 - INFO - 306 : child memory usage 527683584
+2020-03-02 00:08:03,729 - INFO - 306 : cpu time 14.561024
+2020-03-02 00:08:03,730 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:08:13,762 - INFO - 306 : memory usage 323538944
+2020-03-02 00:08:13,763 - INFO - 306 : child memory usage 528097280
+2020-03-02 00:08:13,763 - INFO - 306 : cpu time 14.620566
+2020-03-02 00:08:13,764 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:08:23,791 - INFO - 306 : memory usage 323538944
+2020-03-02 00:08:23,791 - INFO - 306 : child memory usage 528105472
+2020-03-02 00:08:23,792 - INFO - 306 : cpu time 14.687535
+2020-03-02 00:08:23,792 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:08:33,822 - INFO - 306 : memory usage 323538944
+2020-03-02 00:08:33,822 - INFO - 306 : child memory usage 528105472
+2020-03-02 00:08:33,823 - INFO - 306 : cpu time 14.844377
+2020-03-02 00:08:33,831 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:08:43,861 - INFO - 306 : memory usage 323538944
+2020-03-02 00:08:43,861 - INFO - 306 : child memory usage 528113664
+2020-03-02 00:08:43,862 - INFO - 306 : cpu time 14.898507
+2020-03-02 00:08:43,872 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:08:53,901 - INFO - 306 : memory usage 323538944
+2020-03-02 00:08:53,902 - INFO - 306 : child memory usage 528121856
+2020-03-02 00:08:53,902 - INFO - 306 : cpu time 14.945877
+2020-03-02 00:08:53,912 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:09:03,938 - INFO - 306 : memory usage 323538944
+2020-03-02 00:09:03,939 - INFO - 306 : child memory usage 528121856
+2020-03-02 00:09:03,940 - INFO - 306 : cpu time 15.098055
+2020-03-02 00:09:03,940 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:09:13,967 - INFO - 306 : memory usage 323538944
+2020-03-02 00:09:13,968 - INFO - 306 : child memory usage 528121856
+2020-03-02 00:09:13,968 - INFO - 306 : cpu time 15.150917
+2020-03-02 00:09:13,969 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:09:24,005 - INFO - 306 : memory usage 323538944
+2020-03-02 00:09:24,006 - INFO - 306 : child memory usage 528130048
+2020-03-02 00:09:24,006 - INFO - 306 : cpu time 15.196166
+2020-03-02 00:09:24,007 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:09:34,036 - INFO - 306 : memory usage 323538944
+2020-03-02 00:09:34,037 - INFO - 306 : child memory usage 528130048
+2020-03-02 00:09:34,037 - INFO - 306 : cpu time 15.345287
+2020-03-02 00:09:34,037 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:09:44,077 - INFO - 306 : memory usage 323538944
+2020-03-02 00:09:44,078 - INFO - 306 : child memory usage 528130048
+2020-03-02 00:09:44,078 - INFO - 306 : cpu time 15.408732
+2020-03-02 00:09:44,079 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:09:54,115 - INFO - 306 : memory usage 323538944
+2020-03-02 00:09:54,116 - INFO - 306 : child memory usage 528138240
+2020-03-02 00:09:54,117 - INFO - 306 : cpu time 15.464322
+2020-03-02 00:09:54,117 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:10:04,151 - INFO - 306 : memory usage 323543040
+2020-03-02 00:10:04,152 - INFO - 306 : child memory usage 528142336
+2020-03-02 00:10:04,152 - INFO - 306 : cpu time 15.511785
+2020-03-02 00:10:04,153 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:10:14,191 - INFO - 306 : memory usage 323543040
+2020-03-02 00:10:14,191 - INFO - 306 : child memory usage 528142336
+2020-03-02 00:10:14,192 - INFO - 306 : cpu time 15.687874
+2020-03-02 00:10:14,192 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:10:24,233 - INFO - 306 : memory usage 323543040
+2020-03-02 00:10:24,233 - INFO - 306 : child memory usage 528150528
+2020-03-02 00:10:24,234 - INFO - 306 : cpu time 15.74054
+2020-03-02 00:10:24,234 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:10:34,271 - INFO - 306 : memory usage 323543040
+2020-03-02 00:10:34,271 - INFO - 306 : child memory usage 528150528
+2020-03-02 00:10:34,279 - INFO - 306 : cpu time 15.80673
+2020-03-02 00:10:34,280 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:10:44,308 - INFO - 306 : memory usage 323543040
+2020-03-02 00:10:44,309 - INFO - 306 : child memory usage 528150528
+2020-03-02 00:10:44,309 - INFO - 306 : cpu time 15.961431
+2020-03-02 00:10:44,310 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:10:54,345 - INFO - 306 : memory usage 323563520
+2020-03-02 00:10:54,346 - INFO - 306 : child memory usage 528179200
+2020-03-02 00:10:54,346 - INFO - 306 : cpu time 16.013345
+2020-03-02 00:10:54,347 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:11:04,385 - INFO - 306 : memory usage 323563520
+2020-03-02 00:11:04,386 - INFO - 306 : child memory usage 528179200
+2020-03-02 00:11:04,386 - INFO - 306 : cpu time 16.059533
+2020-03-02 00:11:04,387 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:11:14,423 - INFO - 306 : memory usage 323764224
+2020-03-02 00:11:14,424 - INFO - 306 : child memory usage 528379904
+2020-03-02 00:11:14,424 - INFO - 306 : cpu time 16.281527
+2020-03-02 00:11:14,425 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:11:24,460 - INFO - 306 : memory usage 323764224
+2020-03-02 00:11:24,460 - INFO - 306 : child memory usage 528384000
+2020-03-02 00:11:24,461 - INFO - 306 : cpu time 16.333483
+2020-03-02 00:11:24,461 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:11:34,498 - INFO - 306 : memory usage 323764224
+2020-03-02 00:11:34,499 - INFO - 306 : child memory usage 528384000
+2020-03-02 00:11:34,499 - INFO - 306 : cpu time 16.383314
+2020-03-02 00:11:34,500 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:11:44,539 - INFO - 306 : memory usage 323764224
+2020-03-02 00:11:44,540 - INFO - 306 : child memory usage 528384000
+2020-03-02 00:11:44,540 - INFO - 306 : cpu time 16.432645
+2020-03-02 00:11:44,541 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:11:54,581 - INFO - 306 : memory usage 323932160
+2020-03-02 00:11:54,581 - INFO - 306 : child memory usage 528560128
+2020-03-02 00:11:54,582 - INFO - 306 : cpu time 16.65261
+2020-03-02 00:11:54,590 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:12:04,618 - INFO - 306 : memory usage 323932160
+2020-03-02 00:12:04,618 - INFO - 306 : child memory usage 528560128
+2020-03-02 00:12:04,619 - INFO - 306 : cpu time 16.709842
+2020-03-02 00:12:04,619 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:12:14,656 - INFO - 306 : memory usage 323932160
+2020-03-02 00:12:14,657 - INFO - 306 : child memory usage 528560128
+2020-03-02 00:12:14,658 - INFO - 306 : cpu time 16.759039
+2020-03-02 00:12:14,658 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:12:24,695 - INFO - 306 : memory usage 324190208
+2020-03-02 00:12:24,696 - INFO - 306 : child memory usage 528826368
+2020-03-02 00:12:24,697 - INFO - 306 : cpu time 16.982849
+2020-03-02 00:12:24,697 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:12:34,726 - INFO - 306 : memory usage 324210688
+2020-03-02 00:12:34,726 - INFO - 306 : child memory usage 528846848
+2020-03-02 00:12:34,728 - INFO - 306 : cpu time 17.041609
+2020-03-02 00:12:34,728 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:12:44,765 - INFO - 306 : memory usage 324210688
+2020-03-02 00:12:44,766 - INFO - 306 : child memory usage 528846848
+2020-03-02 00:12:44,767 - INFO - 306 : cpu time 17.093005
+2020-03-02 00:12:44,775 - INFO - 306 : child cpu time 0.06261699999999999
+2020-03-02 00:12:54,095 - INFO - 306 : Stopping usage telemetry collection
+2020-04-27 07:58:49,926 - WARNING - 306 : XGBoost is included in recommended algorithms list but not installed locally. If you would like to include XGBoost models in the recommended algorithms please install XGBoost locally. Adding XGBoost to the blacklist.
+2020-04-27 07:58:50,093 - INFO - 306 : Starting usage telemetry collection
+2020-04-27 07:58:51,084 - INFO - 306 : Package azureml-train-automl missing from dependencies file.
+2020-04-27 07:58:51,110 - INFO - 306 : Using pinned version: azureml-train-automl==1.0.83.*
+2020-04-27 07:58:51,116 - INFO - 306 : Package azureml-explain-model missing from dependencies file.
+2020-04-27 07:58:51,121 - INFO - 306 : Using pinned version: azureml-explain-model==1.0.83.*
+2020-04-27 07:58:51,127 - INFO - 306 : Package pandas missing from dependencies file.
+2020-04-27 07:58:51,132 - INFO - 306 : Using pinned version: pandas>=0.21.0,<=0.23.4
+2020-04-27 07:58:51,143 - INFO - 306 : Package numpy missing from dependencies file.
+2020-04-27 07:58:51,150 - INFO - 306 : Using installed version: numpy==1.16.2
+2020-04-27 07:58:51,155 - INFO - 306 : Package py-xgboost missing from dependencies file.
+2020-04-27 07:58:51,160 - INFO - 306 : Using pinned version: py-xgboost<=0.80
+2020-04-27 07:58:51,165 - INFO - 306 : Package inference-schema missing from dependencies file.
+2020-04-27 07:58:51,170 - INFO - 306 : Package fbprophet missing from dependencies file.
+2020-04-27 07:58:51,176 - INFO - 306 : Package setuptools-git missing from dependencies file.
+2020-04-27 07:58:51,208 - INFO - 306 : SDK dependencies versions:{"azureml-widgets": "1.0.83", "azureml-train": "1.0.83", "azureml-train-restclients-hyperdrive": "1.0.83", "azureml-train-core": "1.0.83", "azureml-train-automl": "1.0.83", "azureml-train-automl-runtime": "1.0.83.1", "azureml-train-automl-client": "1.0.83", "azureml-tensorboard": "1.0.83", "azureml-telemetry": "1.0.83", "azureml-sdk": "1.0.83", "azureml-samples": "0+unknown", "azureml-pipeline": "1.0.83", "azureml-pipeline-steps": "1.0.83", "azureml-pipeline-core": "1.0.83", "azureml-opendatasets": "1.0.83", "azureml-model-management-sdk": "1.0.1b6.post1", "azureml-mlflow": "1.0.83", "azureml-interpret": "1.0.83", "azureml-explain-model": "1.0.83", "azureml-defaults": "1.0.83", "azureml-dataprep": "1.1.35", "azureml-dataprep-native": "13.2.0", "azureml-datadrift": "1.0.83", "azureml-core": "1.0.83", "azureml-contrib-services": "1.0.83", "azureml-contrib-server": "1.0.83", "azureml-contrib-reinforcementlearning": "1.0.83", "azureml-contrib-pipeline-steps": "1.0.83", "azureml-contrib-notebook": "1.0.83", "azureml-contrib-interpret": "1.0.83", "azureml-contrib-datadrift": "1.0.83", "azureml-automl-runtime": "1.0.83", "azureml-automl-core": "1.0.83.1"}.
+2020-04-27 07:58:56,358 - INFO - 306 : Validation service found the data has no errors.
+2020-04-27 07:58:56,359 - INFO - 306 : Start creating parent run with DTO:  - name: titanic-classification
+ - subscription_id: 21dc412b-d9eb-42e7-8317-55bc8eb10cf5
+ - region: westeurope
+ - spark_context: None
+ - spark_service: None
+ - azure_service: None
+ - iterations: 1000
+ - primary_metric: accuracy
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 3
+ - y_min: None
+ - y_max: None
+ - num_classes: None
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 4
+ - iteration_timeout_minutes: None
+ - mem_in_mb: None
+ - enforce_time_on_windows: False
+ - experiment_timeout_minutes: 15
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['XGBoostClassifier', 'Prophet']
+ - supported_models: ['KNN', 'XGBoostClassifier', 'TensorFlowDNN', 'BernoulliNaiveBayes', 'LinearSVM', 'MultinomialNaiveBayes', 'RandomForest', 'TensorFlowLinearClassifier', 'SVM', 'GradientBoosting', 'LogisticRegression', 'LinearSVMClassifier', 'ExtremeRandomTrees', 'DecisionTree', 'AveragedPerceptronClassifier', 'SGD', 'LightGBM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: False
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - enable_onnx_compatible_models: False
+ - enable_split_onnx_featurizer_estimator_models: False
+ - vm_type: STANDARD_D2_V2
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - enable_dnn: False
+ - force_text_dnn: False
+ - enable_feature_sweeping: True
+ - enable_early_stopping: False
+ - early_stopping_n_iters: 10
+ - metrics: None
+ - enable_ensembling: True
+ - enable_stack_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: None
+ - subsample_seed: None
+ - enable_nimbusml: False
+ - enable_streaming: False
+ - cost_mode: 0
+ - metric_operation: maximize
+ - featurization: auto.
+2020-04-27 07:58:56,597 - INFO - 306 : [ParentRunID:AutoML_9a7c7f1a-d789-4831-8659-eaf7fdf30544] Remote run using input X and y.
+2020-04-27 07:58:56,781 - INFO - 306 : Parent Run ID: AutoML_9a7c7f1a-d789-4831-8659-eaf7fdf30544
+2020-04-27 07:58:56,781 - INFO - 306 : Snapshotted folder: None with snapshot_id: 
+2020-04-27 07:58:56,781 - INFO - 306 : Starting a snapshot run (snapshotId : )
+2020-04-27 07:58:57,643 - INFO - 306 : Stopping usage telemetry collection
+2020-04-27 08:17:06,904 - WARNING - 306 : XGBoost is included in recommended algorithms list but not installed locally. If you would like to include XGBoost models in the recommended algorithms please install XGBoost locally. Adding XGBoost to the blacklist.
+2020-04-27 08:17:06,958 - INFO - 306 : Starting usage telemetry collection
+2020-04-27 08:17:07,683 - INFO - 306 : Package azureml-train-automl missing from dependencies file.
+2020-04-27 08:17:07,683 - INFO - 306 : Using pinned version: azureml-train-automl==1.0.83.*
+2020-04-27 08:17:07,684 - INFO - 306 : Package azureml-explain-model missing from dependencies file.
+2020-04-27 08:17:07,684 - INFO - 306 : Using pinned version: azureml-explain-model==1.0.83.*
+2020-04-27 08:17:07,684 - INFO - 306 : Package pandas missing from dependencies file.
+2020-04-27 08:17:07,685 - INFO - 306 : Using pinned version: pandas>=0.21.0,<=0.23.4
+2020-04-27 08:17:07,685 - INFO - 306 : Package numpy missing from dependencies file.
+2020-04-27 08:17:07,685 - INFO - 306 : Using installed version: numpy==1.16.2
+2020-04-27 08:17:07,685 - INFO - 306 : Package py-xgboost missing from dependencies file.
+2020-04-27 08:17:07,685 - INFO - 306 : Using pinned version: py-xgboost<=0.80
+2020-04-27 08:17:07,685 - INFO - 306 : Package inference-schema missing from dependencies file.
+2020-04-27 08:17:07,686 - INFO - 306 : Package fbprophet missing from dependencies file.
+2020-04-27 08:17:07,686 - INFO - 306 : Package setuptools-git missing from dependencies file.
+2020-04-27 08:17:07,751 - INFO - 306 : SDK dependencies versions:{"azureml-widgets": "1.0.83", "azureml-train": "1.0.83", "azureml-train-restclients-hyperdrive": "1.0.83", "azureml-train-core": "1.0.83", "azureml-train-automl": "1.0.83", "azureml-train-automl-runtime": "1.0.83.1", "azureml-train-automl-client": "1.0.83", "azureml-tensorboard": "1.0.83", "azureml-telemetry": "1.0.83", "azureml-sdk": "1.0.83", "azureml-samples": "0+unknown", "azureml-pipeline": "1.0.83", "azureml-pipeline-steps": "1.0.83", "azureml-pipeline-core": "1.0.83", "azureml-opendatasets": "1.0.83", "azureml-model-management-sdk": "1.0.1b6.post1", "azureml-mlflow": "1.0.83", "azureml-interpret": "1.0.83", "azureml-explain-model": "1.0.83", "azureml-defaults": "1.0.83", "azureml-dataprep": "1.1.35", "azureml-dataprep-native": "13.2.0", "azureml-datadrift": "1.0.83", "azureml-core": "1.0.83", "azureml-contrib-services": "1.0.83", "azureml-contrib-server": "1.0.83", "azureml-contrib-reinforcementlearning": "1.0.83", "azureml-contrib-pipeline-steps": "1.0.83", "azureml-contrib-notebook": "1.0.83", "azureml-contrib-interpret": "1.0.83", "azureml-contrib-datadrift": "1.0.83", "azureml-automl-runtime": "1.0.83", "azureml-automl-core": "1.0.83.1"}.
+2020-04-27 08:17:16,987 - INFO - 306 : memory usage 285597696
+2020-04-27 08:17:16,987 - INFO - 306 : child memory usage 438468608
+2020-04-27 08:17:16,988 - INFO - 306 : cpu time 7.808138
+2020-04-27 08:17:16,988 - INFO - 306 : child cpu time 3.51893
+2020-04-27 08:17:27,026 - INFO - 306 : memory usage 290414592
+2020-04-27 08:17:27,027 - INFO - 306 : child memory usage 443670528
+2020-04-27 08:17:27,028 - INFO - 306 : cpu time 7.855717
+2020-04-27 08:17:27,028 - INFO - 306 : child cpu time 3.51893
+2020-04-27 08:17:37,066 - INFO - 306 : memory usage 291053568
+2020-04-27 08:17:37,067 - INFO - 306 : child memory usage 442490880
+2020-04-27 08:17:37,067 - INFO - 306 : cpu time 7.907374
+2020-04-27 08:17:37,068 - INFO - 306 : child cpu time 3.51893
+2020-04-27 08:17:47,096 - INFO - 306 : memory usage 293715968
+2020-04-27 08:17:47,097 - INFO - 306 : child memory usage 305008640
+2020-04-27 08:17:47,097 - INFO - 306 : cpu time 8.066579
+2020-04-27 08:17:47,106 - INFO - 306 : child cpu time 6.853399
+2020-04-27 08:18:09,314 - WARNING - 306 : XGBoost is included in recommended algorithms list but not installed locally. If you would like to include XGBoost models in the recommended algorithms please install XGBoost locally. Adding XGBoost to the blacklist.
+2020-04-27 08:18:09,578 - INFO - 306 : Starting usage telemetry collection
+2020-04-27 08:18:10,143 - INFO - 306 : Package azureml-train-automl missing from dependencies file.
+2020-04-27 08:18:10,152 - INFO - 306 : Using pinned version: azureml-train-automl==1.0.83.*
+2020-04-27 08:18:10,162 - INFO - 306 : Package azureml-explain-model missing from dependencies file.
+2020-04-27 08:18:10,171 - INFO - 306 : Using pinned version: azureml-explain-model==1.0.83.*
+2020-04-27 08:18:10,182 - INFO - 306 : Package pandas missing from dependencies file.
+2020-04-27 08:18:10,189 - INFO - 306 : Using pinned version: pandas>=0.21.0,<=0.23.4
+2020-04-27 08:18:10,203 - INFO - 306 : Package numpy missing from dependencies file.
+2020-04-27 08:18:10,212 - INFO - 306 : Using installed version: numpy==1.16.2
+2020-04-27 08:18:10,223 - INFO - 306 : Package py-xgboost missing from dependencies file.
+2020-04-27 08:18:10,253 - INFO - 306 : Using pinned version: py-xgboost<=0.80
+2020-04-27 08:18:10,260 - INFO - 306 : Package inference-schema missing from dependencies file.
+2020-04-27 08:18:10,268 - INFO - 306 : Package fbprophet missing from dependencies file.
+2020-04-27 08:18:10,280 - INFO - 306 : Package setuptools-git missing from dependencies file.
+2020-04-27 08:18:10,338 - INFO - 306 : SDK dependencies versions:{"azureml-widgets": "1.0.83", "azureml-train": "1.0.83", "azureml-train-restclients-hyperdrive": "1.0.83", "azureml-train-core": "1.0.83", "azureml-train-automl": "1.0.83", "azureml-train-automl-runtime": "1.0.83.1", "azureml-train-automl-client": "1.0.83", "azureml-tensorboard": "1.0.83", "azureml-telemetry": "1.0.83", "azureml-sdk": "1.0.83", "azureml-samples": "0+unknown", "azureml-pipeline": "1.0.83", "azureml-pipeline-steps": "1.0.83", "azureml-pipeline-core": "1.0.83", "azureml-opendatasets": "1.0.83", "azureml-model-management-sdk": "1.0.1b6.post1", "azureml-mlflow": "1.0.83", "azureml-interpret": "1.0.83", "azureml-explain-model": "1.0.83", "azureml-defaults": "1.0.83", "azureml-dataprep": "1.1.35", "azureml-dataprep-native": "13.2.0", "azureml-datadrift": "1.0.83", "azureml-core": "1.0.83", "azureml-contrib-services": "1.0.83", "azureml-contrib-server": "1.0.83", "azureml-contrib-reinforcementlearning": "1.0.83", "azureml-contrib-pipeline-steps": "1.0.83", "azureml-contrib-notebook": "1.0.83", "azureml-contrib-interpret": "1.0.83", "azureml-contrib-datadrift": "1.0.83", "azureml-automl-runtime": "1.0.83", "azureml-automl-core": "1.0.83.1"}.
+2020-04-27 08:18:15,787 - INFO - 306 : Validation service found the data has no errors.
+2020-04-27 08:18:15,789 - INFO - 306 : Start creating parent run with DTO:  - name: titanic-classification
+ - subscription_id: 21dc412b-d9eb-42e7-8317-55bc8eb10cf5
+ - region: westeurope
+ - spark_context: None
+ - spark_service: None
+ - azure_service: None
+ - iterations: 1000
+ - primary_metric: accuracy
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 3
+ - y_min: None
+ - y_max: None
+ - num_classes: None
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 4
+ - iteration_timeout_minutes: None
+ - mem_in_mb: None
+ - enforce_time_on_windows: False
+ - experiment_timeout_minutes: 15
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['XGBoostClassifier', 'Prophet']
+ - supported_models: ['TensorFlowDNN', 'LightGBM', 'XGBoostClassifier', 'SVM', 'LinearSVM', 'DecisionTree', 'TensorFlowLinearClassifier', 'AveragedPerceptronClassifier', 'LinearSVMClassifier', 'MultinomialNaiveBayes', 'SGD', 'GradientBoosting', 'KNN', 'RandomForest', 'BernoulliNaiveBayes', 'ExtremeRandomTrees', 'LogisticRegression']
+ - auto_blacklist: True
+ - blacklist_samples_reached: False
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - enable_onnx_compatible_models: False
+ - enable_split_onnx_featurizer_estimator_models: False
+ - vm_type: STANDARD_D2_V2
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - enable_dnn: False
+ - force_text_dnn: False
+ - enable_feature_sweeping: True
+ - enable_early_stopping: False
+ - early_stopping_n_iters: 10
+ - metrics: None
+ - enable_ensembling: True
+ - enable_stack_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: None
+ - subsample_seed: None
+ - enable_nimbusml: False
+ - enable_streaming: False
+ - cost_mode: 0
+ - metric_operation: maximize
+ - featurization: auto.
+2020-04-27 08:18:16,030 - INFO - 306 : [ParentRunID:AutoML_19437e5e-9a46-4782-92a5-fadb98a84d62] Remote run using input X and y.
+2020-04-27 08:18:16,166 - INFO - 306 : Parent Run ID: AutoML_19437e5e-9a46-4782-92a5-fadb98a84d62
+2020-04-27 08:18:16,166 - INFO - 306 : Snapshotted folder: None with snapshot_id: 
+2020-04-27 08:18:16,167 - INFO - 306 : Starting a snapshot run (snapshotId : )
+2020-04-27 08:18:17,246 - INFO - 306 : Stopping usage telemetry collection

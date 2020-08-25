@@ -1,0 +1,102 @@
+name: "SqueezeNet"
+layer {
+  name: "data"
+  type: "Input"
+  top: "data"
+  input_param {
+    shape {
+      dim: 10
+      dim: 3
+      dim: 28
+      dim: 28
+    }
+  }
+}
+layer {
+  name: "conv1/conv"
+  type: "Convolution"
+  bottom: "data"
+  top: "conv1/conv"
+  convolution_param {
+    num_output: 16
+    kernel_size: 3
+    stride: 1
+    pad: 1
+  }
+}
+layer {
+  name: "conv1/relu"
+  type: "ReLU"
+  bottom: "conv1/conv"
+  top: "conv1/conv"
+}
+layer {
+  name: "conv1/pool"
+  type: "Pooling"
+  bottom: "conv1/conv"
+  top: "conv1/pool"
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
+}
+layer {
+  name: "conv2/conv"
+  type: "Convolution"
+  bottom: "conv1/pool"
+  top: "conv2/conv"
+  convolution_param {
+    num_output: 32
+    kernel_size: 3
+    stride: 1
+    pad: 1
+  }
+}
+layer {
+  name: "conv2/relu"
+  type: "ReLU"
+  bottom: "conv2/conv"
+  top: "conv2/conv"
+}
+layer {
+  name: "conv2/pool"
+  type: "Pooling"
+  bottom: "conv2/conv"
+  top: "conv2/pool"
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
+}
+layer {
+  name: "fc1/fc"
+  type: "InnerProduct"
+  bottom: "conv2/pool"
+  top: "fc1/fc"
+  inner_product_param {
+    num_output: 256
+  }
+}
+layer {
+  name: "fc1/relu"
+  type: "ReLU"
+  bottom: "fc1/fc"
+  top: "fc1/fc"
+}
+layer {
+  name: "fc2/fc"
+  type: "InnerProduct"
+  bottom: "fc1/fc"
+  top: "fc2/fc"
+  inner_product_param {
+    num_output: 10
+  }
+}
+layer {
+  name: "prob"
+  type: "Softmax"
+  bottom: "fc2/fc"
+  top: "prob"
+}

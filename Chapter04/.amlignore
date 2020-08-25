@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+azureml-logs
+.azureml
+.git
+outputs
+azureml-setup
+docs
+temp_dataset_from_pandas

@@ -1,0 +1,11 @@
+azureml-sdk[notebooks,contrib,automl,explain]
+azureml-contrib-datadrift
+azureml-telemetry
+azureml-tensorboard
+azureml-contrib-opendatasets
+azureml-opendatasets
+azureml-contrib-reinforcementlearning
+azureml-mlflow
+azureml-contrib-interpret
+tensorflow==1.13.2
+keras==2.3.0
