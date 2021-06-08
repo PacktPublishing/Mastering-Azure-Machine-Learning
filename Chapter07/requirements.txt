@@ -7,4 +7,4 @@ keras==2.3.1
 seaborn==0.10.0
 matplotlib==3.2.1
 keras-preprocessing==1.1.0
-pillow==7.1.2
+pillow==8.2.0
