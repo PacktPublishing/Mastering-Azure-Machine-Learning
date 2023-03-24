@@ -7,5 +7,5 @@ azureml-opendatasets
 azureml-contrib-reinforcementlearning
 azureml-mlflow
 azureml-contrib-interpret
-tensorflow==1.13.2
+tensorflow==2.11.1
 keras==2.3.0
